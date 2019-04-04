@@ -321,17 +321,3 @@ def id2gene_menu():
 ### Main ###
 if __name__ == "__main__":
     print(MainMenu())
-    
-    
-### Old code
-## Metadata_menu for option 1
-#            try:
-#                file = input("Enter the name of the file to process: ")
-#                return metadata_age(file)
-#            except:
-#                print("")
-#                print('Invalid file name. Please insert the right one.')
-#                print('Do not forget to add the file extension at the the end of the file name.')
-#                print('Do not forget to check if the file is in the same directory as the program script.')
-#                print('Do not forget that it is not necessary to quote the file name.')
-#                return metadata_menu()
